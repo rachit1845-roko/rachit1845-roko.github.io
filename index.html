@@ -441,6 +441,17 @@
             <span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">Blender &amp; Unreal Engine 5</span>
           </div>
           <h2 class="font-display text-3xl sm:text-5xl tracking-wide text-white mt-1.5">
+            <!-- =================================================================== -->
+    <!-- 4B. 3D ANIMATION & VFX SHOWREEL (BLENDER & UNREAL ENGINE 5)         -->
+    <!-- =================================================================== -->
+    <section id="showreel-section" class="max-w-7xl w-full mx-auto px-4 sm:px-8 pt-12 pb-6 border-b border-white/5">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="bg-netflix-red text-white text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-sm">3D SHOWREEL</span>
+            <span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">Blender &amp; Unreal Engine 5</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl tracking-wide text-white mt-1.5">
             3D ANIMATION &amp; VFX SHOWREEL
           </h2>
         </div>
@@ -455,117 +466,49 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- REEL 01: Nike Air Jordan 3D Billboard CGI (Blender) -->
         <div onclick="openShowreelModal(0)" class="netflix-card group cursor-pointer bg-[#181818] border border-white/10 rounded-xl overflow-hidden flex flex-col justify-between">
-          <div class="relative aspect-video bg-black overflow-hidden">
-            <!-- Live Silent Preview Video (video_1.mp4) -->
-            <video
-              src="video_1.mp4"
-              muted
-              loop
-              playsinline
-              autoplay
-              onloadeddata="this.classList.remove('hidden'); document.getElementById('reel-fallback-1').classList.add('hidden');"
-              onerror="this.classList.add('hidden'); document.getElementById('reel-fallback-1').classList.remove('hidden');"
-              class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-500"
-            ></video>
-
-            <!-- Stylized FOOH 3D Billboard Preview Fallback -->
-            <div id="reel-fallback-1" class="w-full h-full bg-gradient-to-br from-[#1f2937] via-[#0f172a] to-[#09090b] flex flex-col items-center justify-center p-6 text-center relative">
-              <div class="w-28 h-20 rounded-lg border-2 border-orange-500/60 bg-orange-500/15 flex flex-col items-center justify-center mb-2 shadow-[0_0_25px_rgba(249,115,22,0.25)]">
-                <span class="text-[10px] font-black tracking-widest text-orange-400 uppercase">FOOH 3D CGI</span>
-                <span class="font-display text-xl tracking-wider text-white mt-0.5">AIR JORDAN</span>
-              </div>
-              <p class="text-[11px] text-neutral-400">Blender 3D Architectural Billboard Animation</p>
+          <div class="relative aspect-video bg-black overflow-hidden flex items-center justify-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-orange-950/40 via-neutral-900 to-black flex flex-col items-center justify-center p-6 text-center">
+              <span class="text-[10px] font-black tracking-widest text-orange-400 uppercase mb-1">BLENDER 3D • FOOH CGI</span>
+              <span class="font-display text-3xl tracking-wider text-white">NIKE AIR JORDAN</span>
+              <p class="text-xs text-neutral-400 mt-1">Click to Play 3D Billboard Reel ▶</p>
             </div>
-
-            <!-- Dark Gradient Overlay + Center Play Button -->
-            <div class="absolute inset-0 bg-gradient-to-t from-[#181818] via-black/25 to-black/30 flex items-center justify-center">
-              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-netflix-red/95 group-hover:bg-netflix-red group-hover:scale-110 text-white flex items-center justify-center shadow-[0_0_30px_rgba(229,9,20,0.75)] transition-all">
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 flex items-center justify-center transition">
+              <div class="w-16 h-16 rounded-full bg-netflix-red group-hover:scale-110 text-white flex items-center justify-center shadow-[0_0_30px_rgba(229,9,20,0.75)] transition-all">
                 <svg class="w-7 h-7 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
               </div>
             </div>
-
-            <!-- Top Badges -->
-            <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between">
-              <span class="bg-black/75 backdrop-blur-md border border-white/15 text-orange-400 text-[10px] font-extrabold tracking-widest uppercase px-2.5 py-1 rounded">
-                REEL 01 • BLENDER 3D
-              </span>
-              <span class="bg-black/75 backdrop-blur-md text-white text-[11px] font-bold px-2 py-0.5 rounded">
-                0:12 • 1080p
-              </span>
-            </div>
           </div>
-
           <div class="p-5 sm:p-6">
-            <div class="flex items-center justify-between gap-2 mb-1.5">
-              <h3 class="font-display text-2xl sm:text-3xl tracking-wide text-white group-hover:text-netflix-red transition">
-                NIKE AIR JORDAN 3D BILLBOARD (FOOH CGI)
-              </h3>
-            </div>
-            <p class="text-xs sm:text-sm text-neutral-300 leading-relaxed mb-4">
-              Anamorphic 3D Faux Out-Of-Home commercial animation featuring giant Nike Air Jordan sneakers atop an orange shoebox recessed inside a glass skyscraper facade, complete with realistic daylight shadows and camera tracking.
+            <h3 class="font-display text-2xl sm:text-3xl tracking-wide text-white group-hover:text-netflix-red transition">
+              NIKE AIR JORDAN 3D BILLBOARD (FOOH CGI)
+            </h3>
+            <p class="text-xs sm:text-sm text-neutral-300 mt-2">
+              Anamorphic 3D Faux Out-Of-Home commercial animation created in Blender featuring giant Nike Air Jordan sneakers.
             </p>
-            <div class="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-white/10 text-xs">
-              <span class="text-neutral-400">Blender 3D • Camera Tracking • Compositing</span>
-              <span class="font-bold text-white group-hover:text-netflix-red transition">Play Video ▶</span>
-            </div>
           </div>
         </div>
 
         <!-- REEL 02: Sacred Sanctuary Shiva & Nandi Cinematic (Unreal Engine 5) -->
         <div onclick="openShowreelModal(1)" class="netflix-card group cursor-pointer bg-[#181818] border border-white/10 rounded-xl overflow-hidden flex flex-col justify-between">
-          <div class="relative aspect-video bg-black overflow-hidden">
-            <!-- Live Silent Preview Video (video_2.mp4) -->
-            <video
-              src="video_2.mp4"
-              muted
-              loop
-              playsinline
-              autoplay
-              onloadeddata="this.classList.remove('hidden'); document.getElementById('reel-fallback-2').classList.add('hidden');"
-              onerror="this.classList.add('hidden'); document.getElementById('reel-fallback-2').classList.remove('hidden');"
-              class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-500"
-            ></video>
-
-            <!-- Stylized UE5 Cinematic Environment Preview Fallback -->
-            <div id="reel-fallback-2" class="w-full h-full bg-gradient-to-br from-[#064e3b] via-[#0f172a] to-[#09090b] flex flex-col items-center justify-center p-6 text-center relative">
-              <div class="w-28 h-20 rounded-lg border-2 border-amber-400/60 bg-amber-500/15 flex flex-col items-center justify-center mb-2 shadow-[0_0_25px_rgba(245,158,11,0.25)]">
-                <span class="text-[10px] font-black tracking-widest text-amber-300 uppercase">UE5 CINEMATIC</span>
-                <span class="font-display text-xl tracking-wider text-white mt-0.5">SANCTUARY</span>
-              </div>
-              <p class="text-[11px] text-neutral-400">Unreal Engine 5 Real-Time Environment &amp; Character Sequence</p>
+          <div class="relative aspect-video bg-black overflow-hidden flex items-center justify-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/40 via-neutral-900 to-black flex flex-col items-center justify-center p-6 text-center">
+              <span class="text-[10px] font-black tracking-widest text-amber-400 uppercase mb-1">UNREAL ENGINE 5</span>
+              <span class="font-display text-3xl tracking-wider text-white">SHIVA &amp; NANDI SANCTUARY</span>
+              <p class="text-xs text-neutral-400 mt-1">Click to Play Cinematic Reel ▶</p>
             </div>
-
-            <!-- Dark Gradient Overlay + Center Play Button -->
-            <div class="absolute inset-0 bg-gradient-to-t from-[#181818] via-black/25 to-black/30 flex items-center justify-center">
-              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-netflix-red/95 group-hover:bg-netflix-red group-hover:scale-110 text-white flex items-center justify-center shadow-[0_0_30px_rgba(229,9,20,0.75)] transition-all">
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 flex items-center justify-center transition">
+              <div class="w-16 h-16 rounded-full bg-netflix-red group-hover:scale-110 text-white flex items-center justify-center shadow-[0_0_30px_rgba(229,9,20,0.75)] transition-all">
                 <svg class="w-7 h-7 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
               </div>
             </div>
-
-            <!-- Top Badges -->
-            <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between">
-              <span class="bg-black/75 backdrop-blur-md border border-white/15 text-amber-400 text-[10px] font-extrabold tracking-widest uppercase px-2.5 py-1 rounded">
-                REEL 02 • UNREAL ENGINE 5
-              </span>
-              <span class="bg-black/75 backdrop-blur-md text-white text-[11px] font-bold px-2 py-0.5 rounded">
-                0:18 • 1080p
-              </span>
-            </div>
           </div>
-
           <div class="p-5 sm:p-6">
-            <div class="flex items-center justify-between gap-2 mb-1.5">
-              <h3 class="font-display text-2xl sm:text-3xl tracking-wide text-white group-hover:text-netflix-red transition">
-                SACRED SANCTUARY: SHIVA &amp; NANDI (UE5)
-              </h3>
-            </div>
-            <p class="text-xs sm:text-sm text-neutral-300 leading-relaxed mb-4">
-              Real-time 3D cinematic sequence created in Unreal Engine 5 following a lone traveler walking across a sunlit grass courtyard lined with stone columns past a colossal Nandi statue toward a towering meditating Shiva monument and cascading waterfalls.
+            <h3 class="font-display text-2xl sm:text-3xl tracking-wide text-white group-hover:text-netflix-red transition">
+              SACRED SANCTUARY: SHIVA &amp; NANDI (UE5)
+            </h3>
+            <p class="text-xs sm:text-sm text-neutral-300 mt-2">
+              Real-time 3D cinematic sequence built in Unreal Engine 5 featuring temple courtyards and divine monuments.
             </p>
-            <div class="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-white/10 text-xs">
-              <span class="text-neutral-400">Unreal Engine 5 • Lumen Lighting • Worldbuilding</span>
-              <span class="font-bold text-white group-hover:text-netflix-red transition">Play Video ▶</span>
-            </div>
           </div>
         </div>
       </div>
